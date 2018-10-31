@@ -1,0 +1,21 @@
+<!--pages/goods/goods.wxml-->
+<view class="desc">
+  <image src="{{desc.goods_img}}"></image>
+  <view style='text-align:center'>{{desc.goods_desc}}</view>
+  <view style='color:red;text-align:center'>￥{{desc.goods_price}}</view>
+</view>
+<view class='freight'>
+    <view class='left'>
+    运费:免运费
+    </view>
+    <view class='right'>
+    销量：3424
+    </view>
+</view> 
+<view class='btn' bindtap='addCart'>
+  加入购物车
+</view>
+<view class='btn' style='background: #FE4543;' bindtap='specFun'>
+  立即购买
+</view>
+<image src="/pages/images/shopcar.png" style='width:100px;height:100px' bindtap='shopcar'></image>

@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dao/dao",
+    "pages/mg/mg",
+    "pages/car/car",
+    "pages/json/json"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF0033",
+    "navigationBarTitleText": "月考",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"pages/images/indexno.png",
+      "selectedIconPath":"pages/images/index.png"
+    },
+    {
+      "pagePath": "pages/car/car",
+      "text": "购物车",
+      "iconPath": "/pages/images/type.png",
+      "selectedIconPath": "/pages/images/typey.png"
+    },
+    {
+      "pagePath": "pages/dao/dao",
+      "text": "我的",
+      "iconPath": "/pages/images/myno.png",
+      "selectedIconPath": "/pages/images/my.png"
+    }
+
+    
+    ]
+  }
+  
+}

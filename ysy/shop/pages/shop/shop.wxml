@@ -1,0 +1,19 @@
+<!--pages/shop/shop.wxml-->
+<view class="cart-box">
+   <view wx:for="{{shop}}" class="desc">
+       <navigator>
+          <image class="cart-thumb" src="{{item.goods_img}}"></image>
+       </navigator>
+       <text class="column">{{item.goods_desc}}</text>
+       <text class="row">￥{{item.goods_price}}</text>
+       <view>
+         <text bindtap='minusCount' data-index="{{index}}">-</text>
+         <text>{{item.goods_num}}</text>
+         <text bindtap='addCount' data-index="{{index}}">+</text>
+       </view>
+   </view>
+</view>
+
+<view>
+
+</view>

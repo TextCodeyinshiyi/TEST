@@ -1,0 +1,18 @@
+.cart-thumb{
+  width:100px;
+  height: 100px;
+  margin:20px;
+}
+
+.desc{
+  display: flex;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

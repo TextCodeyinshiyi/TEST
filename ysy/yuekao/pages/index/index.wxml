@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+  <block wx:for="{{item}}">
+    <swiper-item>
+      <image src="{{item.img}}" class="l_img"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+  <block wx:for="{{data}}">
+    <navigator url='../json/json'>
+    <view class="dao">{{item.dao_content}}</view>
+    </navigator>
+  </block>
+</view>

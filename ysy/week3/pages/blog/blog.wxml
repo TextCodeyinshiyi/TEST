@@ -1,0 +1,15 @@
+<!--pages/blog/blog.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+  <block wx:for="{{imgUrls}}">
+     <swiper-item>
+      <image src="{{item}}" class="img"/>
+    </swiper-item>
+  </block> 
+</swiper>
+<view>
+  <block wx:for="{{data}}">
+        <text>{{item.blog_title}}</text>
+        <image src="http://cms-bucket.nosdn.127.net/2018/10/17/6d2cb55e0e044573b436ffa7fdfdc3ca.jpeg?imageView&thumbnail=550x0"></image>
+        <textarea>{{item.blog_content}}</textarea>
+  </block>
+</view>

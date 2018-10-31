@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/type/type",
+    "pages/shop/shop",
+    "pages/my/my",
+    "pages/goods/goods"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF0033",
+    "navigationBarTitleText": "京东好购",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "京东百货",
+      "iconPath": "pages/images/index.png",
+      "selectedIconPath": "pages/images/indexy.png"
+    },
+    {
+      "pagePath": "pages/type/type",
+      "text": "分类",
+      "iconPath": "pages/images/type.png",
+      "selectedIconPath": "pages/images/typey.png"
+    },
+    {
+      "pagePath": "pages/shop/shop",
+      "text": "购物车",
+      "iconPath": "pages/images/shopcar.png",
+      "selectedIconPath": "pages/images/shopcary.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "pages/images/my.png",
+      "selectedIconPath": "pages/images/myy.png"
+    }
+    
+    ]
+  }
+}
